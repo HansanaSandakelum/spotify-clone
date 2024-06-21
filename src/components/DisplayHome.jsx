@@ -12,6 +12,7 @@ const DisplayHome = () => {
         <div className=" flex overflow-auto ">
           {albumsData.map((item, index) => (
             <AlbumItem
+              id={item.id}
               image={item.image}
               name={item.name}
               desc={item.desc}
@@ -29,6 +30,7 @@ const DisplayHome = () => {
               name={item.name}
               image={item.image}
               desc={item.desc}
+              id={item.id}
             />
           ))}
         </div>
