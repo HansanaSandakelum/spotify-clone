@@ -13,7 +13,9 @@ const Display = () => {
   const albumId = isAlbum ? location.pathname.slice(-1) : "";
   const bgColor = albumsData[Number(albumId)].bgColor;
 
-  //useEffect hook
+  //useEffect hook 
+
+  //display
 
   useEffect(() => {
     if (isAlbum) {
